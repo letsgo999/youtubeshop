@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI, 무엇을 어떻게 공부할 것인가 - 출시 기념 이벤트</title>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+<style>
+@font-face {
+font-family: 'NanumSquareAC';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/NanumSquareAC-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+}
+</style>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#3b82f6',secondary:'#10b981'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+}
+.circuit-grid {
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://readdy.ai/api/search-image?query=Digital%20circuit%20grid%20pattern%20with%20glowing%20blue%20lines%20on%20a%20dark%20background%2C%20futuristic%20technology%20concept%2C%20high-tech%20network%20visualization%2C%20abstract%20digital%20landscape%20with%20neon%20blue%20circuit%20paths%2C%20clean%20modern%20tech%20aesthetic%2C%20minimalist%20design&width=1920&height=1080&seq=1&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.hero-section {
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://readdy.ai/api/search-image?query=A%20silhouette%20of%20a%20person%20standing%20on%20a%20glowing%20digital%20circuit%20grid%20floor%2C%20looking%20up%20at%20a%20bright%20star%20in%20a%20dark%20night%20sky.%20The%20scene%20has%20a%20futuristic%20feel%20with%20blue%20circuit%20lines%20illuminating%20the%20ground%2C%20creating%20a%20path%20forward.%20The%20composition%20shows%20technological%20advancement%20and%20human%20aspiration%2C%20with%20deep%20blue%20gradient%20background%20and%20clean%20modern%20aesthetic.&width=1920&height=1080&seq=2&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.star-shine {
+position: relative;
+}
+.star-shine::before {
+content: '';
+position: absolute;
+top: -20px;
+right: -20px;
+width: 60px;
+height: 60px;
+background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%);
+border-radius: 50%;
+z-index: 1;
+}
+</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<!-- Hero Section -->
+<div class="hero-section min-h-screen flex flex-col justify-center items-center text-white">
+<div class="w-full max-w-6xl mx-auto px-4 py-20 flex flex-col items-center">
+<div class="flex flex-col items-center text-center w-full">
+<div class="flex flex-col gap-8">
+<h1 class="text-3xl md:text-4xl font-bold leading-[1.8] w-full" style="font-family: 'NanumSquareAC', sans-serif;">
+<span class="block mb-6 text-4xl md:text-6xl text-yellow-300">⭐
+[최규문TV] 디마불사 200회 맞이<br>
+& [유튜브 쇼핑] 개설 축하!</span>
+<div class="w-full h-[2px] bg-white/30 my-4"></div>
+</h1>
+<h1 class="text-5xl md:text-7xl font-bold leading-[1.8] w-full" style="font-family: 'NanumSquareAC', sans-serif;">
+《AI, 무엇을 어떻게 공부할까》
+</h1>
+<h1 class="text-4xl md:text-6xl font-bold leading-[1.8] w-full" style="font-family: 'NanumSquareAC', sans-serif;">전자책 무료 제공 특별 이벤트!
+</h1>
+</div>
+<p class="text-3xl md:text-5xl text-blue-300 mb-8 w-full mt-8" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 900;">
+업무 생산성 500% 높이는 AI 학습 가이드
+</p>
+<p class="text-2xl md:text-4xl mb-12 w-full">
+누구보다 빠르게, 누구보다 실용적으로 AI 시대를 앞서나가세요!
+</p>
+<div class="w-full max-w-2xl mx-auto mb-12">
+<img src="https://static.readdy.ai/image/bf44eae05b160a44e8e7e86d1cd3540f/b26cf0d7635ffa7a5e2e67be338ba8f1.png" alt="AI 학습 가이드북" class="w-full object-contain shadow-2xl !rounded-lg">
+</div>
+</div>
+<div class="relative mt-12 mb-8 w-full max-w-4xl">
+<div class="absolute -top-6 -right-6 w-12 h-12 bg-yellow-400 rounded-full animate-pulse"></div>
+<div class="bg-white/10 backdrop-blur-sm border border-white/20 !rounded-lg p-8 shadow-2xl">
+<div class="flex flex-col md:flex-row gap-8 items-center" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+<div class="w-full md:w-1/2 flex justify-center">
+<div class="relative star-shine">
+<img src="https://static.readdy.ai/image/bf44eae05b160a44e8e7e86d1cd3540f/0a46764c4a50b1599f748242bd8b3ed2.png" alt="AI 학습 가이드북 커버" class="w-[32rem] shadow-xl !rounded-md">
+</div>
+</div>
+<div class="w-full md:w-1/2">
+<h2 class="text-2xl font-bold mb-4">✨ 책 소개</h2>
+<h3 class="text-2xl font-bold mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">《AI, 무엇을 어떻게 공부할까》</h3>
+<p class="mb-6 text-2xl leading-relaxed">25년 디지털 마케팅 경험을 버리고<br>2년 5개월! AI 공부에 '올인'한<br>최규문의 코치의 AI 인사이트 총정리!</p>
+<h3 class="text-2xl font-bold mb-2">📖 무엇을 다루나?</h3>
+<ul class="space-y-4">
+<li class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-3"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-2xl">1부 ― AI, 무엇을 바꾸었나?</span>
+</li>
+<li class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-3"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-2xl">2부 ― AI, 무엇을 공부할까?</span>
+</li>
+<li class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-3"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-2xl">3부 ― AI, 어디에 써먹을까?</span>
+</li>
+<li class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-3"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-2xl">4부 ― AI, 어떻게 공부할까?</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Book Content Structure Section -->
+<div class="bg-gray-50 py-20">
+<div class="max-w-6xl mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-4xl mb-4" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">📚 이렇게 구성됩니다</h2>
+</div>
+<div class="bg-white !rounded-lg shadow-xl p-8 mb-12">
+<p class="text-xl leading-relaxed mb-8 text-gray-700" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+이 책은 AI 에이전트 시대에 뒤처지지 않고 생존‧성장하기 위한 '실전형 AI 활용 매뉴얼'입니다. 챗GPT 출시 2년 5개월! 생성형 AI가 글쓰기·데이터 분석·이미지 및 영상 생성·음악 제작까지 기존의 콘텐츠 생성 방식과 업무패턴을 완전히 바꾸고 있습니다. 지금 공부하지 않으면 AI 실력 격차는 눈덩이처럼 커질 것입니다!
+</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-gradient-to-br from-red-800 to-red-900 !rounded-lg p-6">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-red-700 !rounded-full text-white shrink-0">
+<i class="ri-rocket-line ri-lg"></i>
+</div>
+<div>
+<h3 class="text-2xl mb-3 text-white" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">Part 1</h3>
+<p class="text-gray-100 leading-relaxed text-lg" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+GPT-3.5에서 o3-Pro까지, LLM 전반의 기술 진화 흐름을 짚어보고, 검색·쇼핑 에이전트 등장과 함께 고급 음성모드가 일상화되고, 용도별 맞춤 에이전트가 속속 등장하는 최근 AI 기술의 진화와 마케팅 트렌드의 변화 방향을 명쾌하게 정리합니다.
+</p>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-emerald-800 to-emerald-900 !rounded-lg p-6">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-emerald-700 !rounded-full text-white shrink-0">
+<i class="ri-tools-line ri-lg"></i>
+</div>
+<div>
+<h3 class="text-2xl mb-3 text-white" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">Part 2</h3>
+<p class="text-gray-100 leading-relaxed text-lg" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+'설치-체험-비교' 학습 동선을 따라 퍼플렉시티, 에이닷, 릴리스AI, 냅킨, 젠스파크 등 10가지 도구를 직접 테스트하며 업무 목적별 최적 솔루션을 고르는 법을 제시하고, 프롬프트 제1원칙 "모르면 물어라"와 My GPT를 활용한 반복 작업 자동화 실습을 다룹니다.
+</p>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-purple-800 to-purple-900 !rounded-lg p-6">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-purple-700 !rounded-full text-white shrink-0">
+<i class="ri-lightbulb-line ri-lg"></i>
+</div>
+<div>
+<h3 class="text-2xl mb-3 text-white" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">Part 3</h3>
+<p class="text-gray-100 leading-relaxed text-lg" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+마케팅, 브랜딩, 글쓰기, 데이터 분석, 이미지‧비디오 제작 등 다양한 분야에서 AI로 생산성을 크게 끌어올리는 전략과 관련 체크리스트를 제공하고, 고객 행동 데이터 수집, 초개인화 캠페인 설계, AEO 전환과 브랜드 평판 관리에 필요한 실전 팁을 제시합니다.
+</p>
+</div>
+</div>
+</div>
+<div class="bg-gradient-to-br from-indigo-800 to-indigo-900 !rounded-lg p-6">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-indigo-700 !rounded-full text-white shrink-0">
+<i class="ri-book-2-line ri-lg"></i>
+</div>
+<div>
+<h3 class="text-2xl mb-3 text-white" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">Part 4</h3>
+<p class="text-gray-100 leading-relaxed text-lg" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+유튜브·오픈채팅방·AI 학습 커뮤니티 활용법을 비롯해 1천권이 넘는 AI 서적 중 필독서 1%만 선별해 추천하고, 팀으로 함께 배울 것을 권하며 최고의 만능 프롬프트는 "이실직고 고해성사" 전략이라며 'AI 분신'을 만드는 학습 방법을 안내합니다.
+</p>
+</div>
+</div>
+</div>
+</div>
+<p class="text-gray-700 leading-relaxed mt-8 bg-blue-50/50 !rounded-lg p-6 border border-blue-100 text-lg" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+2년 넘게 꾸준히 진행해온 강의와 실무 경험을 통해 검증한 최적 프롬프트 35가지를 제시하고, 업무를 자동화시키는 앱 스크립트 작성법, 각종 AI 서비스와 도구로 직접 연결되는 하이퍼 링크가 수록돼 있어 이 책의 가이드를 참고하면 초보자도 쉽고 빠르게 'AI 학습' 의 방향을 잡을 수 있습니다.
+</p>
+</div>
+<div class="mt-20">
+<div class="text-center mb-12">
+<h2 class="text-4xl mb-4" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">📺 북톡방 인터뷰 영상</h2>
+<p class="text-gray-600 text-xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">저자와 함께하는 AI 학습 가이드 이야기</p>
+</div>
+<div class="aspect-video w-full max-w-5xl mx-auto overflow-hidden !rounded-lg shadow-xl">
+<a href="https://youtu.be/Wc2BNC0Viy8" data-readdy="true">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Wc2BNC0Viy8" title="[일욜밤 북톡방_158회] 생성 AI로 생산성 500% 높이는 AI 학습가이드 / 정장식_250511" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full h-full"></iframe>
+</a>
+</div>
+</div>
+</div>
+<!-- Target Audience Section -->
+<div class="bg-white py-10">
+<div class="max-w-6xl mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">🎯 이런 분께 추천합니다</h2>
+<p class="text-gray-600" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">AI 시대를 선도하고 싶은 모든 분들을 위한 필수 가이드</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="bg-gray-50 !rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-100 !rounded-full text-primary mb-4">
+<i class="ri-user-3-line ri-lg"></i>
+</div>
+<h3 class="text-lg mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">직장인</h3>
+<p class="text-gray-600" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">근무 부서에서 맡은 자신의 업무를 더 빠르고 똑똑하게 처리하고 싶은 직장인</p>
+</div>
+<div class="bg-gray-50 !rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-100 !rounded-full text-primary mb-4">
+<i class="ri-briefcase-line ri-lg"></i>
+</div>
+<h3 class="text-lg mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">프리랜서/자영업자</h3>
+<p class="text-gray-600" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">최신 AI 서비스와 기능을 배워 실무에 바로 활용하고 싶은 프리랜서/자영업자</p>
+</div>
+<div class="bg-gray-50 !rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-100 !rounded-full text-primary mb-4">
+<i class="ri-book-open-line ri-lg"></i>
+</div>
+<h3 class="text-lg mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">AI 초보자</h3>
+<p class="text-gray-600" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">AI 공부를 하긴 해야겠는데, 무엇을 어디서부터 시작해야 할지 막막한 초보자</p>
+</div>
+<div class="bg-gray-50 !rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-100 !rounded-full text-primary mb-4">
+<i class="ri-robot-line ri-lg"></i>
+</div>
+<h3 class="text-lg mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">생성 AI 학습자</h3>
+<p class="text-gray-600" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">챗GPT, 제미나이, 클로드 등 생성 AI와 LLM 도구를 제대로 배우고 싶은 사람</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Special Benefits Section -->
+<div class="circuit-grid py-20 text-white">
+<div class="max-w-6xl mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-6xl mb-2" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">🎁 유튜브 쇼핑 개설 기념 특별 혜택</h2>
+<p class="text-blue-300 text-3xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">한정된 기간 동안만 제공되는 특별한 혜택을 놓치지 마세요!</p>
+</div>
+<div class="flex items-center gap-12 mb-12">
+<div class="w-1/2">
+<img src="https://static.readdy.ai/image/bf44eae05b160a44e8e7e86d1cd3540f/b05ab425bf5a4b94a30ad324bb1e81b1.png" alt="카카오 메시지 마케팅" class="w-full h-auto shadow-2xl !rounded-lg">
+</div>
+<div class="w-1/2">
+<h3 class="text-4xl mb-6" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">📱 카카오 메시지 마케팅의 모든 것</h3>
+<p class="text-2xl text-gray-300 leading-relaxed" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+6백만 소상공인을 위한 카카오 비즈니스 플랫폼 활용법을 상세하게 다룬 실전 가이드북입니다. 온택트 시대, 마음을 움직이는 메시지로 성공하는 비법을 알려드립니다.
+</p>
+</div>
+</div>
+<div class="flex items-center gap-12 mb-12">
+<div class="w-1/2">
+<h3 class="text-4xl mb-6" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">📚 재야의 고수들</h3>
+<p class="text-2xl text-gray-300 leading-relaxed" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">
+크몽으로 월 1000 버는 18인의 성공 비법을 담은 실전 가이드북입니다. AI와 경쟁하는 1인 기업 시대, 크몽 최고 전문가 18인이 말하는 성공 노하우를 공개합니다.
+</p>
+</div>
+<div class="w-1/2">
+<img src="https://static.readdy.ai/image/bf44eae05b160a44e8e7e86d1cd3540f/46b67d3792da75ef164be0f26c68d895.png" alt="재야의 고수들" class="w-[420px] h-auto shadow-2xl !rounded-lg">
+</div>
+</div>
+<div class="bg-black/30 backdrop-blur-sm border border-blue-500/30 !rounded-lg p-8 mb-8">
+<div class="flex flex-col md:flex-row gap-8">
+<div class="w-full md:w-1/2">
+<h3 class="text-4xl mb-4 flex items-center" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">
+<span class="w-12 h-12 flex items-center justify-center bg-blue-500 !rounded-full text-white mr-4 text-2xl">1</span>
+오픈 기념 특별 선물
+</h3>
+<div class="mb-6">
+<div class="flex flex-col gap-4 mb-2">
+<span class="text-white text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">[AI, 무엇을 어떻게 공부할까] (A4 250쪽)</span>
+<div class="flex items-center gap-4">
+<span class="text-white text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">정가 25,000원</span>
+<span class="bg-red-500 text-white px-6 py-2 !rounded-md text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">전자책 무료 제공!!</span>
+</div>
+</div>
+<div class="text-5xl text-white" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">종이책 구매자 전원!!</div>
+</div>
+<p class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-4"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-yellow-300 text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">선물 혜택은 이벤트 기간 내에만 적용됩니다.</span>
+</p>
+</div>
+<div class="w-full md:w-1/2">
+<h3 class="text-4xl mb-4 flex items-center" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">
+<span class="w-12 h-12 flex items-center justify-center bg-blue-500 !rounded-full text-white mr-4 text-2xl">2</span>
+선착순 100명 추가 보너스
+</h3>
+<ul class="space-y-6">
+<li class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-4"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">📚 전자책 [고객관리 자동화 하루에 끝내기] (A4 188쪽, 판매가 2만원) 무료 제공!</span>
+</li>
+<li class="flex items-start">
+<span class="w-8 h-8 flex items-center justify-center text-blue-400 mr-4"><i class="ri-check-line ri-2x"></i></span>
+<span class="text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">🎓 저자 직강 코스 강좌 50% 할인수강권!</span>
+</li>
+</ul>
+<p class="mt-6 text-yellow-300 text-2xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">※ 보너스는 선착순이므로 서둘러 주세요!</p>
+</div>
+</div>
+</div>
+<div class="text-center">
+<div class="bg-white/10 backdrop-blur-sm !rounded-lg p-8 mb-8 border-4 border-yellow-400">
+<div class="flex flex-col items-center gap-4">
+<button class="bg-blue-500 text-white px-8 py-3 !rounded-button text-3xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">참가 방법</button>
+<p class="text-3xl leading-[130%]" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">유튜브 [최규문TV] 채널에 접속하여<br>[스토어]에 진열된 종이책 2권 중 한 권을 구매(결제) 완료하면 끝!!<br>⬇️⬇️⬇️<br><a href="https://www.youtube.com/@dimabulsa/store" data-readdy="true" class="text-blue-300 hover:text-blue-400 transition-colors">youtube.com/@dimabulsa/store</a></p>
+</div>
+</div>
+<div class="mb-8">
+<h3 class="text-3xl mb-4" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">📅 이벤트 기간</h3>
+<p class="text-4xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">2025년 6월 13일 ~ 7월 13일</p>
+</div>
+<div class="flex flex-col items-center gap-4">
+<button class="bg-red-600 text-white px-8 py-3 !rounded-button text-3xl" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">유의사항</button>
+<p class="mt-2 text-3xl text-gray-300 text-center leading-relaxed" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 700;">전자책 선물은 이메일 또는 문자메시지로 다운로드 받을 링크 주소를<br>보내드리므로, 구매 결제시 휴대폰 번호(또는 이메일 주소)를 정확히 적어 주세요!!</p>
+</div>
+<p class="mt-2 text-base text-gray-400">* 입력하신 개인정보는 주문 및 배송에만 사용되며, 주문 완료 후 안전하게 폐기됩니다.</p>
+</div>
+</div>
+</div>
+<!-- Final CTA Section -->
+<div class="bg-yellow-400 py-16 text-black">
+<div class="max-w-4xl mx-auto px-4 text-center">
+<h2 class="text-4xl mb-6" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">🔥 지금 바로 유튜브로 쇼핑하세요!</h2>
+<a href="https://www.youtube.com/@dimabulsa/store" data-readdy="true" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-8 px-24 !rounded-button text-4xl transition-all duration-300 transform hover:scale-105 shadow-lg mb-6" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">최규문TV 스토어 바로 가기</a>
+<p class="text-4xl mb-8" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">AI를 다루는 사람이, 세상을 다루게 될 것입니다.</p>
+<a href="https://open.kakao.com/me/letsgo99" data-readdy="true" class="inline-block bg-primary hover:bg-blue-700 text-white font-bold py-8 px-24 !rounded-button text-4xl transition-all duration-300 transform hover:scale-105 shadow-lg whitespace-nowrap" style="font-family: 'NanumSquareAC', sans-serif; font-weight: 1000;">
+궁금한 점 카톡으로 묻기
+</a>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 py-8">
+<div class="max-w-6xl mx-auto px-4 text-center">
+<p class="mb-2">© 2025 소셜네트웍코리아. All rights reserved.</p>
+<p class="text-sm">문의: letsgo999@gmail.com</p>
+</div>
+</footer>
+</body>
+</html>
